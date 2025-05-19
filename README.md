@@ -1,4 +1,4 @@
-# mocha-chai_webTesting
+# mocha-chai_autoTesting
 
 Require:
 - Node.js
@@ -38,14 +38,15 @@ Testing Framework JavaScript: Mocha JS (https://mochajs.org/)
   - Test file berekstensi .test.js
   - Dalam .test.js digunakan:
     1. Fungsi describe() dari Mocha untuk mendefinisikan test suite (fitur yang diuji; kumpulan test case).
-                        -> describe() dapat bersarang (nested) di describe() lainnya,      misalnya untuk medefenisikan test scenario di dalamnya.
+                        -> describe() dapat bersarang (nested) di describe() lainnya, misalnya untuk medefenisikan test scenario di dalamnya.
     2. Fungsi it() dari Mocha untuk mendefinisikan test case (langkah spesifik pengujian).
 
 - Mocha Hook        : digunakan dalam fungsi describe()
   1. before()    : fungsi yang akan dijalankan sebelum pengujian (per block atau describe() function) dimulai;
   2. after()     : fungsi yang akan dijalankan setelah pengujian (describe() function) selesai;
   3. beforeEach(): fungsi yang akan dijalankan sebelum setiap test case (per it() function) dijalankan;
-  4. afterEach() : fungsi yang akan dijalankan setelah setiap test case (it() function) selesai;
--Mocha - Manually Controlling/Debugging Test
+  4. afterEach() : fungsi yang akan dijalankan setelah setiap test case (it() function) selesai
+  
+-Mocha-Manually Controlling/Debugging Test
  1. .skip(): mengabaikan/melewati pengujian (test case) tertentu;
  2. .only(): menjalankan pengujian (test case) tertentu saja (abaikan pengujian lainnya);
