@@ -1,0 +1,27 @@
+{
+  "name": "mocha-chai_autotesting",
+  "version": "1.0.0",
+  "description": "Using Mocha-Chai for automation testing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovinta29/mocha-chai_autoTesting.git"
+  },
+  "author": "Lovinta Oktavia Hutagalung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovinta29/mocha-chai_autoTesting/issues"
+  },
+  "homepage": "https://github.com/lovinta29/mocha-chai_autoTesting#readme",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.3.0"
+  }
+}
