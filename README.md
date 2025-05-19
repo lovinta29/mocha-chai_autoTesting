@@ -40,6 +40,7 @@ Testing Framework JavaScript: Mocha JS (https://mochajs.org/)
     1. Fungsi describe() dari Mocha untuk mendefinisikan test suite (fitur yang diuji; kumpulan test case).
                         -> describe() dapat bersarang (nested) di describe() lainnya,      misalnya untuk medefenisikan test scenario di dalamnya.
     2. Fungsi it() dari Mocha untuk mendefinisikan test case (langkah spesifik pengujian).
+
 - Mocha Hook        : digunakan dalam fungsi describe()
   1. before()    : fungsi yang akan dijalankan sebelum pengujian (per block atau describe() function) dimulai;
   2. after()     : fungsi yang akan dijalankan setelah pengujian (describe() function) selesai;
