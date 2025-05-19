@@ -47,6 +47,6 @@ Testing Framework JavaScript: Mocha JS (https://mochajs.org/)
   3. beforeEach(): fungsi yang akan dijalankan sebelum setiap test case (per it() function) dijalankan;
   4. afterEach() : fungsi yang akan dijalankan setelah setiap test case (it() function) selesai
   
--Mocha-Manually Controlling/Debugging Test
+- Mocha-Manually Controlling/Debugging Test
  1. .skip(): mengabaikan/melewati pengujian (test case) tertentu;
  2. .only(): menjalankan pengujian (test case) tertentu saja (abaikan pengujian lainnya);
